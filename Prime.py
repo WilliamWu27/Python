@@ -16,6 +16,6 @@ if __name__ == '__main__':
     n = 1
     print(isPrime(n))
 
-    for x in range(2, 101):
+    for x in range(2, 1000000):
         if isPrime(x):
             print(x)

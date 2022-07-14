@@ -7,5 +7,6 @@ yyy = yy + 1
 for i in range(1, yyy):
     gas = xx * i
     gass = str(gas)
-    print(x + " x " + y + " = " + gass)
+    ii = str(i)
+    print(x + " x " + ii + " = " + gass)
     print()

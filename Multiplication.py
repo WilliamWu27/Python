@@ -4,9 +4,11 @@ y = input("Up to what number?")
 yy = int(y)
 yyy = yy + 1
 
-for i in range(1, yyy):
-    gas = xx * i
-    gass = str(gas)
-    ii = str(i)
-    print(x + " x " + ii + " = " + gass)
+for j in range(1, yyy):
+    for i in range(1, j):
+        gas = j * i
+        gass = str(gas)
+        ii = str(i)
+        print(str(j) + " x " + ii + " = " + gass, end=" | ")
     print()
+    

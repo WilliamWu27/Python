@@ -10,6 +10,8 @@ def my_reverse(in_list):
 orig_list = [2, 3, 6, 7, 8, 1, -98, 2, 3]
 print(my_reverse(orig_list))
 
+print(orig_list[-1::-1])
+
 
 res = set()
 for i in orig_list:
